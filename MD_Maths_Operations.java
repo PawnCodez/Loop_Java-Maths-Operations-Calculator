@@ -1,4 +1,5 @@
 //𝒲𝐸𝐿𝒞𝒪𝑀𝐸!
+//View the repository at https://github.com/PawnCodez/Java-Maths-Operations-Calculator/
 import java.lang.*;
 import java.util.Scanner;
 public class MD_Maths_Operations
@@ -78,7 +79,7 @@ public class MD_Maths_Operations
             case 3: //Square Root
                 System.out.println("Enter the number.");
                 double n11= sc.nextDouble();
-                System.out.println("The Square Root= "+(Math.sqrt(n11)));
+                System.out.println("The Square Root= ±"+(Math.sqrt(n11)));
                 break;
 
             case 4: //Cube Root
