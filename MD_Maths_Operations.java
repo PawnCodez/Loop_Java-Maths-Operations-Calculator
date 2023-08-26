@@ -111,13 +111,13 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the side of the square.");
                                 double side1= sc.nextDouble();
-                                System.out.println("The Perimeter of the Square= "+(side1*4));
+                                System.out.println("The Perimeter of the Square= "+(side1*4)+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter the side of the square.");
                                 double side2= sc.nextDouble();
-                                System.out.println("The Area of the Square= "+(side2*side2));
+                                System.out.println("The Area of the Square= "+(side2*side2)+" sq. units.");
                                 break;
 
                             default:
@@ -136,14 +136,14 @@ public class MD_Maths_Operations
                                 System.out.println("Enter the length and the breadth of the rectangle respectively.");
                                 double l1= sc.nextDouble(); //'l'=> 'length'
                                 double b1= sc.nextDouble(); //'b'=> 'breadth'
-                                System.out.println("The Perimeter of the Rectangle= "+(2*(l1+b1)));
+                                System.out.println("The Perimeter of the Rectangle= "+(2*(l1+b1))+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter the length and the breadth of the rectangle respectively.");
                                 double l2= sc.nextDouble();
                                 double b2= sc.nextDouble();
-                                System.out.println("The Area of the Rectangle= "+(l2*b2));
+                                System.out.println("The Area of the Rectangle= "+(l2*b2)+" sq. units.");
                                 break;
 
                             default:
@@ -163,14 +163,14 @@ public class MD_Maths_Operations
                                 double st1= sc.nextDouble(); //'st' => 'side of triangle'
                                 double st2= sc.nextDouble();
                                 double st3= sc.nextDouble();
-                                System.out.println("The Perimeter of the Triangle= "+(st1+st2+st3));
+                                System.out.println("The Perimeter of the Triangle= "+(st1+st2+st3)+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter the height and the base of the triangle respectively.");
                                 double ht1= sc.nextDouble(); //'ht'=> 'height'
                                 double bs1= sc.nextDouble(); //'bs'=> 'base'
-                                System.out.println("The Area of the Triangle= "+(0.5*ht1*bs1));
+                                System.out.println("The Area of the Triangle= "+(0.5*ht1*bs1)+" sq. units.");
                                 break;
 
                             default:
@@ -188,14 +188,14 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the side of the rhombus.");
                                 double sr1= sc.nextDouble(); //'sr'=> 'side of rhombus'
-                                System.out.println("The Perimeter of the Rhombus= "+(4*sr1));
+                                System.out.println("The Perimeter of the Rhombus= "+(4*sr1)+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter both the diagonals of the rhombus.");
                                 double d1= sc.nextDouble(); //'d'=>'diagonal'
                                 double d2= sc.nextDouble();
-                                System.out.println("The Area of the Rhombus= "+(0.5*d1*d2));
+                                System.out.println("The Area of the Rhombus= "+(0.5*d1*d2)+" sq. units.");
                                 break;
 
                             default:
@@ -214,14 +214,14 @@ public class MD_Maths_Operations
                                 System.out.println("Enter the length and the breadth of the parallelogram respectively.");
                                 double lp= sc.nextDouble(); //'lp'=> 'length of parallelogram'
                                 double bp= sc.nextDouble(); //'bp'=> 'breadth of parallelogram'
-                                System.out.println("The Perimeter of the Parallelogram= "+(2*(lp+bp)));
+                                System.out.println("The Perimeter of the Parallelogram= "+(2*(lp+bp))+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter the base and the corresponding height of the parallelogram respectively.");
                                 double bsp= sc.nextDouble(); //'bsp'=> 'base of parallelogram'
                                 double chp= sc.nextDouble(); //'chp'=> 'corresponding height of parallelogram'
-                                System.out.println("The Area of the Parallelogram= "+(bsp*chp));
+                                System.out.println("The Area of the Parallelogram= "+(bsp*chp)+" sq. units.");
                                 break;
 
                             default:
@@ -242,7 +242,7 @@ public class MD_Maths_Operations
                                 double stz2= sc.nextDouble();
                                 double stz3= sc.nextDouble();
                                 double stz4= sc.nextDouble();
-                                System.out.println("The Perimeter of the Trapezium= "+(stz1+stz2+stz3+stz4));
+                                System.out.println("The Perimeter of the Trapezium= "+(stz1+stz2+stz3+stz4)+" units.");
                                 break;
 
                             case 2:
@@ -250,7 +250,7 @@ public class MD_Maths_Operations
                                 double htz= sc.nextDouble(); //'htz'=> 'height of trapezium'
                                 double p1t= sc.nextDouble(); //'pt'=> 'parallel side of trapezium'
                                 double p2t= sc.nextDouble();
-                                System.out.println("The Area of the Trapezium= "+(0.5*(p1t+p2t)*htz));
+                                System.out.println("The Area of the Trapezium= "+(0.5*(p1t+p2t)*htz)+" sq. units.");
                                 break;
 
                             default:
@@ -269,14 +269,14 @@ public class MD_Maths_Operations
                                 System.out.println("Enter the length and breadth of the kite respectively.");
                                 double lk= sc.nextDouble(); //'lk'=> 'length of kite'
                                 double bk= sc.nextDouble(); //'bk'=> 'base of kite'
-                                System.out.println("The Perimeter of the Kite= "+(2*(lk+bk)));
+                                System.out.println("The Perimeter of the Kite= "+(2*(lk+bk))+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter both the diagonals of the kite.");
                                 double d3= sc.nextDouble();
                                 double d4= sc.nextDouble();
-                                System.out.println("The Area of the Kite= "+(0.5*d3*d4));
+                                System.out.println("The Area of the Kite= "+(0.5*d3*d4)+" sq. units.");
                                 break;
 
                             default:
@@ -294,13 +294,13 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the radius of the circle.");
                                 double radc1= sc.nextDouble(); //'radc'=> 'radius of circle'
-                                System.out.println("The Circumference of the Circle= "+(2*Math.PI*radc1));
+                                System.out.println("The Circumference of the Circle= "+(2*Math.PI*radc1)+" units.");
                                 break;
 
                             case 2:
                                 System.out.println("Enter the radius of the circle.");
                                 double radc2= sc.nextDouble();
-                                System.out.println("The Area of the Circle= "+(Math.PI*radc2*radc2));
+                                System.out.println("The Area of the Circle= "+(Math.PI*radc2*radc2)+" sq. units.");
                                 break;
 
                             default:
@@ -311,6 +311,7 @@ public class MD_Maths_Operations
                     default:
                         System.out.println("Wrong Input\nPlease Check The Operation.");
                 }
+                break;
 
             case 6: //3D Shapes Operations
                 System.out.println("Choose any one of the following 3D shapes:");
@@ -334,17 +335,17 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the edge of the cube.");
                                 double edge1= sc.nextDouble();
-                                System.out.println("The Volume of the Cube= "+(Math.pow(edge1,3)));
+                                System.out.println("The Volume of the Cube= "+(Math.pow(edge1,3))+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the edge of the cube.");
                                 double edge2= sc.nextDouble();
-                                System.out.println("The Total Surface Area of the Cube= "+(6*edge2*edge2));
+                                System.out.println("The Total Surface Area of the Cube= "+(6*edge2*edge2)+" sq. units.");
                                 break;  
                             case 3:
                                 System.out.println("Enter the edge of the cube.");
                                 double edge3= sc.nextDouble();
-                                System.out.println("The Lateral Surface Area of the Cube= "+(4*edge3*edge3));
+                                System.out.println("The Lateral Surface Area of the Cube= "+(4*edge3*edge3)+" sq. units.");
                                 break;
 
                             default:
@@ -365,21 +366,21 @@ public class MD_Maths_Operations
                                 double lcu1= sc.nextDouble(); //'lcu'=> 'length of cuboid'
                                 double bcu1= sc.nextDouble(); //'bcu'=> 'breadth of cuboid'
                                 double hcu1= sc.nextDouble(); //'hcu'=> 'height of cuboid'
-                                System.out.println("The Volume of the Cuboid= "+(lcu1*bcu1*hcu1));
+                                System.out.println("The Volume of the Cuboid= "+(lcu1*bcu1*hcu1)+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the length, breadth and height of the cube.");
                                 double lcu2= sc.nextDouble();
                                 double bcu2= sc.nextDouble();
                                 double hcu2= sc.nextDouble();
-                                System.out.println("The Total Surface Area of the Cuboid= "+(2*((lcu2*bcu2)+(bcu2*hcu2)+(lcu2*hcu2))));
+                                System.out.println("The Total Surface Area of the Cuboid= "+(2*((lcu2*bcu2)+(bcu2*hcu2)+(lcu2*hcu2)))+" sq. units.");
                                 break;  
                             case 3:
                                 System.out.println("Enter the length, breadth and height of the cube.");
                                 double lcu3= sc.nextDouble();
                                 double bcu3= sc.nextDouble();
                                 double hcu3= sc.nextDouble();
-                                System.out.println("The Lateral Surface Area of the Cuboid= "+(2*(lcu3+bcu3)*hcu3));
+                                System.out.println("The Lateral Surface Area of the Cuboid= "+(2*(lcu3+bcu3)*hcu3)+" sq. units.");
                                 break;
 
                             default:
@@ -399,19 +400,19 @@ public class MD_Maths_Operations
                                 System.out.println("Enter the radius and height of the cylinder.");
                                 double radcy1= sc.nextDouble(); //'radcy'=> 'radius of cylinder'
                                 double hcy1= sc.nextDouble(); //'hcy'=> 'height of cylinder'
-                                System.out.println("The Volume of the Cylinder= "+(Math.PI*radcy1*radcy1*hcy1));
+                                System.out.println("The Volume of the Cylinder= "+(Math.PI*radcy1*radcy1*hcy1)+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the radius and height of the cylinder.");
                                 double radcy2= sc.nextDouble();
                                 double hcy2= sc.nextDouble();
-                                System.out.println("The Total Surface Area of the Cylinder= "+(2*Math.PI*radcy2*(hcy2+radcy2)));
+                                System.out.println("The Total Surface Area of the Cylinder= "+(2*Math.PI*radcy2*(hcy2+radcy2))+" sq. units.");
                                 break;  
                             case 3:
                                 System.out.println("Enter the radius and height of the cylinder.");
                                 double radcy3= sc.nextDouble();
                                 double hcy3= sc.nextDouble();
-                                System.out.println("The Curved Surface Area of the Cylinder= "+(2*Math.PI*radcy3*hcy3));
+                                System.out.println("The Curved Surface Area of the Cylinder= "+(2*Math.PI*radcy3*hcy3)+" sq. units.");
                                 break;
 
                             default:
@@ -431,19 +432,19 @@ public class MD_Maths_Operations
                                 System.out.println("Enter the radius and height of the cone.");
                                 double radco1= sc.nextDouble(); //'radco'=> 'radius of cone'
                                 double hco1= sc.nextDouble(); //'hco'=> 'height of cone'
-                                System.out.println("The Volume of the Cone= "+(1.0/3.0*Math.PI*radco1*radco1*hco1));
+                                System.out.println("The Volume of the Cone= "+(1.0/3.0*Math.PI*radco1*radco1*hco1)+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the radius and slant height of the cone.");
                                 double radco2= sc.nextDouble();
                                 double shco1= sc.nextDouble(); //'shco'=> 'slant height of cone'
-                                System.out.println("The Total Surface Area of the Cone= "+(Math.PI*radco2*(radco2+shco1)));
+                                System.out.println("The Total Surface Area of the Cone= "+(Math.PI*radco2*(radco2+shco1))+" sq. units.");
                                 break;  
                             case 3:
                                 System.out.println("Enter the radius and slant height of the cone.");
                                 double radco3= sc.nextDouble();
                                 double shco2= sc.nextDouble();
-                                System.out.println("The Curved Surface Area of the Cone= "+(Math.PI*radco3*shco2));
+                                System.out.println("The Curved Surface Area of the Cone= "+(Math.PI*radco3*shco2)+" sq. units.");
                                 break;
 
                             default:
@@ -461,12 +462,12 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the radius of the sphere.");
                                 double rads1= sc.nextDouble(); //'rads'=> 'radius of sphere'
-                                System.out.println("The Volume of the Sphere= "+(4.0/3.0*Math.PI*Math.pow(rads1,3)));
+                                System.out.println("The Volume of the Sphere= "+(4.0/3.0*Math.PI*Math.pow(rads1,3))+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the radius of the sphere.");
                                 double rads2= sc.nextDouble();
-                                System.out.println("The Surface Area of the Sphere= "+(4*Math.PI*rads2*rads2));
+                                System.out.println("The Surface Area of the Sphere= "+(4*Math.PI*rads2*rads2)+" sq. units.");
                                 break;
 
                             default:
@@ -485,17 +486,17 @@ public class MD_Maths_Operations
                             case 1:
                                 System.out.println("Enter the radius of the hemisphere.");
                                 double radhs1= sc.nextDouble(); //'radhs'=> 'radius of hemisphere'
-                                System.out.println("The Volume of the Hemisphere= "+(2.0/3.0*Math.PI*Math.pow(radhs1,3)));
+                                System.out.println("The Volume of the Hemisphere= "+(2.0/3.0*Math.PI*Math.pow(radhs1,3))+" cubic units.");
                                 break;
                             case 2:
                                 System.out.println("Enter the radius of the hemisphere.");
                                 double radhs2= sc.nextDouble();
-                                System.out.println("The Cuved Surface Area of the Hemisphere= "+(2*Math.PI*radhs2*radhs2));
+                                System.out.println("The Cuved Surface Area of the Hemisphere= "+(2*Math.PI*radhs2*radhs2)+" sq. units.");
                                 break;
                             case 3:
                                 System.out.println("Enter the radius of the hemisphere.");
                                 double radhs3= sc.nextDouble();
-                                System.out.println("The Total Surface Area of the Hemisphere= "+(3*Math.PI*radhs3*radhs3));
+                                System.out.println("The Total Surface Area of the Hemisphere= "+(3*Math.PI*radhs3*radhs3)+" sq. units.");
                                 break;
 
                             default:
