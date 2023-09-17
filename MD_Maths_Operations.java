@@ -70,7 +70,7 @@ public class Loop_MD_Maths_Operations
                             System.out.println("Wrong Input\nPlease Check The Operation.");
                     }
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop1= sc.next();
                     if(loop1.equals("Restart"))
                     {
@@ -89,7 +89,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("The Result= "+(Math.pow(bn,pwr)));
 
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop2= sc.next();
                     if(loop2.equals("Restart"))
                     {
@@ -106,7 +106,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("The Square Root= ±"+(Math.sqrt(n11)));
 
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop3= sc.next();
                     if(loop3.equals("Restart"))
                     {
@@ -123,7 +123,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("The Cube Root= "+(Math.cbrt(n12)));
 
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop4= sc.next();
                     if(loop4.equals("Restart"))
                     {
@@ -358,7 +358,7 @@ public class Loop_MD_Maths_Operations
                             System.out.println("Wrong Input\nPlease Check The Operation.");
                     }
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop5= sc.next();
                     if(loop5.equals("Restart"))
                     {
@@ -564,7 +564,7 @@ public class Loop_MD_Maths_Operations
                             System.out.println("Wrong Input\nPlease Check The Operation.");
                     }
                     System.out.println("Type Restart to Restart the Program.");
-                    System.out.println("Type End to End the Program.");
+                    System.out.println("Type End to Terminate the Program.");
                     String loop6= sc.next();
                     if(loop6.equals("Restart"))
                     {
@@ -577,6 +577,7 @@ public class Loop_MD_Maths_Operations
 
                 default:
                     System.out.println("Wrong Input\nPlease Check The Operation.");
+                    break;
             }
         }
     }
