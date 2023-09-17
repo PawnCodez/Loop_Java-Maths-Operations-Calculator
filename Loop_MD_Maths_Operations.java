@@ -72,7 +72,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop1= sc.next();
-                    if(loop1.equals("Restart"))
+                    if(loop1.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
@@ -91,7 +91,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop2= sc.next();
-                    if(loop2.equals("Restart"))
+                    if(loop2.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
@@ -108,7 +108,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop3= sc.next();
-                    if(loop3.equals("Restart"))
+                    if(loop3.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
@@ -125,7 +125,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop4= sc.next();
-                    if(loop4.equals("Restart"))
+                    if(loop4.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
@@ -360,7 +360,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop5= sc.next();
-                    if(loop5.equals("Restart"))
+                    if(loop5.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
@@ -566,7 +566,7 @@ public class Loop_MD_Maths_Operations
                     System.out.println("Type Restart to Restart the Program.");
                     System.out.println("Type End to Terminate the Program.");
                     String loop6= sc.next();
-                    if(loop6.equals("Restart"))
+                    if(loop6.equalsIgnoreCase("Restart"))
                     {
                         redo=1;
                         System.out.println("\f");
